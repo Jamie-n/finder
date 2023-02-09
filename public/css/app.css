@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif !important;
+    color: #fff;
+}
+
+.hero-bg {
+    background-image: url('../images/hero-bg.png');
+    background-size: 1920px 630px;
+    min-height: 630px
+}
+
+.logo-img {
+    height: 35px;
+}
+
+.bg-dark {
+    background-color: #1f1b2d !important;
+}
+
+.nav-link:hover, .active {
+    color: #fff !important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .65) !important;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    color: #454056;
+    text-decoration: none;
+    transition: color .25s ease-in-out, background-color .25s ease-in-out, box-shadow .25s ease-in-out, border-color .25s ease-in-out;
+}
+
+.btn-link {
+    border: 0;
+    background-color: transparent !important;
+    color: #666276;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-link.btn-light {
+    color: rgba(255, 255, 255, .7);
+}
+
+.hero-img {
+    background-image: url(public/images/hero-bg.png);
+    background-size: 1920px 630px;
+}
+
+.bg-repeat-0 {
+    background-repeat: no-repeat !important;
+}
+
+.opacity-70 {
+    opacity: .7;
+}
+
+a.opacity-70:hover {
+    opacity: 100 !important;
+
+    -webkit-transition: opacity .2s linear !important;
+    -moz-transition: opacity .2s linear !important;
+    -o-transition: opacity .2s linear !important;
+    -ms-transition: opacity .2s linear !important;
+    transition: opacity .2s linear !important;
+}
+
+p {
+    font-size: 18px;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+}
+
+.me-md-n5 {
+    margin-right: -3rem !important;
+}
+
+.transition {
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+
+.opacity-transition {
+    -webkit-transition: opacity .1s linear;
+    -moz-transition: opacity .1s linear;
+    -o-transition: opacity .1s linear;
+    -ms-transition: opacity .1s linear;
+    transition: opacity .1s linear;
+}
+
+.car-card:hover {
+    background: #302a45;
+}
+
+.opacity:hover {
+    opacity: 70%;
+}
+
+.bg-faded-light {
+    background-color: rgba(255, 255, 255, .04) !important;
+}
+
+.btn-orange {
+    background: #fd7014;
+    border-color: #fd7014;
+}
+
+.btn-orange:hover {
+    background: #fd7014;
+    border-color: #fd7014;
+    opacity: 80%;
+
+    -webkit-transition: opacity .1s linear;
+    -moz-transition: opacity .1s linear;
+    -o-transition: opacity .1s linear;
+    -ms-transition: opacity .1s linear;
+    transition: opacity .1s linear;
+}
+
+.btn-orange:focus {
+    border-color: #ca5105;
+    box-shadow: 0 0 0 .1rem #ca5105 !important;
+    opacity: 100%;
+}
+
+.text-orange {
+    color: #fd7014 !important;
+}
+
+.form-control:focus {
+    border-color: #fd7014;
+    box-shadow: 0 0 5px 2px #fd7014;
+}
+
+.form-control {
+    margin-bottom: .25rem;
+}
+
+
+.background-logo {
+    background: #fd7014;
+}
+
+
+
+
